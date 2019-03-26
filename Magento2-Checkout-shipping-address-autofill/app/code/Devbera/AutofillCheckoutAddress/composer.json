@@ -1,0 +1,27 @@
+{
+  "name": "devbera/module-autofillcheckoutaddress",
+  "description": "Checkout Shipping field autofill",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Amit Bera",
+      "email": "dev.amitbera@gmail.com",
+      "homepage": "http://www.amitbera.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "magento/module-checkout": "*",
+    "magento/framework": "^100.*.*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Devbera\\AutofillCheckoutAddress\\": ""
+    }
+  }
+}
